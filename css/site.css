@@ -23,59 +23,37 @@
 @media  (max-width: 767px){
     .main {
         position: relative;
-        width: 493px;
+        /*width: 493px;*/
         margin: 0pt auto;
     }
-
+    .content{
+        /*width: 493px;*/
+        margin: 0pt auto;
+    }
     header {
         float: left;
-        width: 493px;
+        /*width: 493px;*/
         height: 40px;
-    }
-    nav > ul > li{
-        float: left;
-        margin: 0 5px 0 5px;
-        text-align: center;
-        height: 30px;
-        padding-top: 9px;
-        margin: 0;
-        width: 33%;
-        color: #fff;
-        font-weight: bold;
-        background-color: blue;
     }
 }
 @media (min-width: 768px) {
     .main {
         position: relative;
-        width: 986px;
+        /*width: 986px;*/
         margin: 0pt auto;
     }
-
+    .content{
+        /*width: 986px;*/
+        margin: 0pt auto;
+    }
     header {
         float: left;
-        width: 986px;
+        /*width: 986px;*/
         height: 40px;
     }
-    nav > ul > li{
-        float: left;
-        margin: 0 5px 0 5px;
-        text-align: center;
-        height: 30px;
-        padding-top: 9px;
-        margin: 0;
-        width: 16%;
-        color: #fff;
-        font-weight: bold;
-        background-color: blue;
-    }
 }
-nav > ul{
-    width: 100%;
-    list-style: none;
-    display: block;
-    padding: 0;
-    margin: 0;
+.contact-wrapper{
+    margin: 5px 5px 4px 5px;
 }
 .wrapper{
     width: 100%;
@@ -83,11 +61,6 @@ nav > ul{
     background: #ffffff;
 }
 .content{
-    height: 1000px;
-}
-.main-content{
-}
-.content-wrapper{
     background: rgba(250,250,250,1);
     background: -moz-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(240,240,240,1) 47%, rgba(232,232,232,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,250,250,1)), color-stop(47%, rgba(240,240,240,1)), color-stop(100%, rgba(232,232,232,1)));
@@ -99,6 +72,8 @@ nav > ul{
 }
 .header-image{
     background-color: #fff;
+    width: 100%;
+    margin-top: 4px;
 }
 .ornate {
     font-family: QwigleyRegular, Arial Black;
@@ -111,9 +86,7 @@ nav > ul{
     color: #4477AA;
 }
 .centered-content{
-    /*vertical-align: top;*/
     text-align: center;
-    /*white-space: nowrap;*/
 }
 .text-under{
     position: relative;
@@ -125,4 +98,13 @@ nav > ul{
 }
 .float-right{
     float: right;
+}
+footer{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(232,232,232,1);
+}
+footer > div{
+    padding-top: 4px;
+    padding-bottom: 2px;
 }
