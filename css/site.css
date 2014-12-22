@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'QwigleyRegular';
+    src: url('../fonts/Qwigley-Regular-webfont.eot');
+    src: url('../fonts/Qwigley-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Qwigley-Regular-webfont.woff') format('woff'),
+    url('../fonts/Qwigley-Regular-webfont.ttf') format('truetype'),
+    url('../fonts/Qwigley-Regular-webfont.svg#QwigleyRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ComfortaaBold';
+    src: url('../fonts/Comfortaa_Bold-webfont.eot');
+    src: url('../fonts/Comfortaa_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Comfortaa_Bold-webfont.woff') format('woff'),
+    url('../fonts/Comfortaa_Bold-webfont.ttf') format('truetype'),
+    url('../fonts/Comfortaa_Bold-webfont.svg#ComfortaaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@media  (max-width: 767px){
+    .main {
+        position: relative;
+        width: 493px;
+        margin: 0pt auto;
+    }
+
+    header {
+        float: left;
+        width: 493px;
+        height: 40px;
+    }
+    nav > ul > li{
+        float: left;
+        margin: 0 5px 0 5px;
+        text-align: center;
+        height: 30px;
+        padding-top: 9px;
+        margin: 0;
+        width: 33%;
+        color: #fff;
+        font-weight: bold;
+        background-color: blue;
+    }
+}
+@media (min-width: 768px) {
+    .main {
+        position: relative;
+        width: 986px;
+        margin: 0pt auto;
+    }
+
+    header {
+        float: left;
+        width: 986px;
+        height: 40px;
+    }
+    nav > ul > li{
+        float: left;
+        margin: 0 5px 0 5px;
+        text-align: center;
+        height: 30px;
+        padding-top: 9px;
+        margin: 0;
+        width: 16%;
+        color: #fff;
+        font-weight: bold;
+        background-color: blue;
+    }
+}
+nav > ul{
+    width: 100%;
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+    margin: 0pt auto;
+    background: #ffffff;
+}
+.content{
+    height: 1000px;
+}
+.main-content{
+}
+.content-wrapper{
+    background: rgba(250,250,250,1);
+    background: -moz-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(240,240,240,1) 47%, rgba(232,232,232,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,250,250,1)), color-stop(47%, rgba(240,240,240,1)), color-stop(100%, rgba(232,232,232,1)));
+    background: -webkit-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(240,240,240,1) 47%, rgba(232,232,232,1) 100%);
+    background: -o-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(240,240,240,1) 47%, rgba(232,232,232,1) 100%);
+    background: -ms-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(240,240,240,1) 47%, rgba(232,232,232,1) 100%);
+    background: linear-gradient(to bottom, rgba(250,250,250,1) 0%, rgba(240,240,240,1) 47%, rgba(232,232,232,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#e8e8e8', GradientType=0 );
+}
+.header-image{
+    background-color: #fff;
+}
+.ornate {
+    font-family: QwigleyRegular, Arial Black;
+    font-size: 100px;
+    text-shadow: 2px 2px 3px #888;
+}
+.decorative-text{
+    font-family: ComfortaaBold, Georgia;
+    font-size: 18pt;
+    color: #4477AA;
+}
+.centered-content{
+    /*vertical-align: top;*/
+    text-align: center;
+    /*white-space: nowrap;*/
+}
+.text-under{
+    position: relative;
+    top: -55px;
+    white-space: nowrap;
+}
+.contact-info{
+    margin-left: 5px;
+}
+.float-right{
+    float: right;
+}
