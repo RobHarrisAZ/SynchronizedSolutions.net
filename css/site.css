@@ -53,7 +53,6 @@
     }
 }
 .contact-wrapper{
-    margin: 5px 5px 4px 5px;
 }
 .wrapper{
     width: 100%;
@@ -61,14 +60,15 @@
     background: #ffffff;
 }
 .content{
-    background: rgba(250,250,250,1);
-    background: -moz-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(240,240,240,1) 47%, rgba(232,232,232,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,250,250,1)), color-stop(47%, rgba(240,240,240,1)), color-stop(100%, rgba(232,232,232,1)));
-    background: -webkit-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(240,240,240,1) 47%, rgba(232,232,232,1) 100%);
-    background: -o-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(240,240,240,1) 47%, rgba(232,232,232,1) 100%);
-    background: -ms-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(240,240,240,1) 47%, rgba(232,232,232,1) 100%);
-    background: linear-gradient(to bottom, rgba(250,250,250,1) 0%, rgba(240,240,240,1) 47%, rgba(232,232,232,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#e8e8e8', GradientType=0 );
+    margin: 5px 5px 4px 5px;
+    background: rgba(224,224,224,0.42);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.42) 0%, rgba(217,217,217,0.69) 47%, rgba(209,209,209,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.42)), color-stop(47%, rgba(217,217,217,0.69)), color-stop(100%, rgba(209,209,209,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.42) 0%, rgba(217,217,217,0.69) 47%, rgba(209,209,209,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0.42) 0%, rgba(217,217,217,0.69) 47%, rgba(209,209,209,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.42) 0%, rgba(217,217,217,0.69) 47%, rgba(209,209,209,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.42) 0%, rgba(217,217,217,0.69) 47%, rgba(209,209,209,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#d1d1d1', GradientType=0 );
 }
 .header-image{
     background-color: #fff;
@@ -100,9 +100,8 @@
     float: right;
 }
 footer{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background-color: rgba(232,232,232,1);
+    margin: -5px 5px 4px 5px;
+    background-color: rgba(209,209,209,1);
 }
 footer > div{
     padding-top: 4px;
