@@ -51,6 +51,10 @@
         /*width: 986px;*/
         height: 40px;
     }
+    .carousel-container{
+        width: 310px;
+        margin: 0 auto;
+    }
 }
 .contact-wrapper{
 }
