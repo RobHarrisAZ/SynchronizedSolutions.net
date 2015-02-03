@@ -24,11 +24,11 @@
     .main {
         position: relative;
         /*width: 493px;*/
-        margin: 0pt auto;
+        margin: 0 auto;
     }
     .content{
         /*width: 493px;*/
-        margin: 0pt auto;
+        margin: 0 auto;
     }
     header {
         float: left;
@@ -40,11 +40,11 @@
     .main {
         position: relative;
         /*width: 986px;*/
-        margin: 0pt auto;
+        margin: 0 auto;
     }
     .content{
         /*width: 986px;*/
-        margin: 0pt auto;
+        margin: 0 auto;
     }
     header {
         float: left;
@@ -60,7 +60,7 @@
 }
 .wrapper{
     width: 100%;
-    margin: 0pt auto;
+    margin: 0 auto;
     background: #ffffff;
 }
 .content{
@@ -72,7 +72,7 @@
     background: -o-linear-gradient(top, rgba(255,255,255,0.42) 0%, rgba(217,217,217,0.69) 47%, rgba(209,209,209,1) 100%);
     background: -ms-linear-gradient(top, rgba(255,255,255,0.42) 0%, rgba(217,217,217,0.69) 47%, rgba(209,209,209,1) 100%);
     background: linear-gradient(to bottom, rgba(255,255,255,0.42) 0%, rgba(217,217,217,0.69) 47%, rgba(209,209,209,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#d1d1d1', GradientType=0 );
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#d1d1d1', GradientType=0 );*/
 }
 .header-image{
     background-color: #fff;
@@ -80,12 +80,12 @@
     margin-top: 4px;
 }
 .ornate {
-    font-family: QwigleyRegular, Arial Black;
+    font-family: QwigleyRegular, Arial Black, Sans-Serif;
     font-size: 100px;
     text-shadow: 2px 2px 3px #888;
 }
 .decorative-text{
-    font-family: ComfortaaBold, Georgia;
+    font-family: ComfortaaBold, Georgia, Cursive;
     font-size: 18pt;
     color: #4477AA;
 }
