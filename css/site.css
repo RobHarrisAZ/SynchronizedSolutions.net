@@ -35,6 +35,10 @@
         /*width: 493px;*/
         height: 40px;
     }
+    .carousel-container{
+        width: 310px;
+        margin: 0 auto;
+    }
 }
 @media (min-width: 768px) {
     .main {
@@ -52,9 +56,12 @@
         height: 40px;
     }
     .carousel-container{
-        width: 310px;
+        /*width: 310px;*/
         margin: 0 auto;
     }
+}
+.carousel-inner > .item > img{
+    margin: auto;
 }
 .contact-wrapper{
 }
